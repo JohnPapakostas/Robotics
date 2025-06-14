@@ -1,4 +1,3 @@
-% Onoma : Papakostas Ioannis , AM : 4143
 close all;
 %%FirstMovement
 %%Acceleration in X-Axis
@@ -137,7 +136,3 @@ plot(t3,polyval(p3,55-t3),'b');
 xlabel('t (s)');ylabel('y(t) (m)');
 title ("Plot of Robot's Desired Position In Y-Axis"); 
 saveas(9,'PDTY2.jpg');
-
-
-
-

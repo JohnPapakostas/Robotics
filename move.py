@@ -5,7 +5,6 @@ from tf.transformations import euler_from_quaternion
 from nav_msgs.msg import Odometry
 from math import pow,atan2,sqrt,sin,cos,pi
 
-# Student : Papakostas Ioannis , AM : 4143
 class p3dxRobotController:
 
     def __init__(self):
